@@ -1,5 +1,7 @@
 package it.epicode.elemento_multimediale;
 
+import it.epicode.elemento_multimediale.interfacce.Luminosita;
+
 public class Immagine extends ElementoMultimediale implements Luminosita {
     private int luminosita;
     public Immagine(String titolo, int luminosita) {

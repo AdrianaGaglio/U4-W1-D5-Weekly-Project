@@ -1,5 +1,7 @@
 package it.epicode.elemento_multimediale;
 
+import it.epicode.elemento_multimediale.interfacce.Riproducibile;
+
 public class Audio extends ElementoMultimediale implements Riproducibile {
     private int volume;
     private int duration;

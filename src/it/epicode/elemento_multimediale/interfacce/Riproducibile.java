@@ -1,4 +1,4 @@
-package it.epicode.elemento_multimediale;
+package it.epicode.elemento_multimediale.interfacce;
 
 public interface Riproducibile {
     public void play();

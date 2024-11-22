@@ -1,5 +1,8 @@
 package it.epicode.elemento_multimediale;
 
+import it.epicode.elemento_multimediale.interfacce.Luminosita;
+import it.epicode.elemento_multimediale.interfacce.Riproducibile;
+
 public class Video extends ElementoMultimediale implements Riproducibile, Luminosita {
     private int volume;
     private int luminosita;
