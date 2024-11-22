@@ -42,6 +42,7 @@ public class Player {
                 System.out.println("Scelta non valida!");
             }
         }
+        scanner.close();
     }
 
     public static void riproduciElementi(ElementoMultimediale[] player) {
@@ -62,11 +63,13 @@ public class Player {
             ElementoMultimediale elemento = player[selection - 1];
             ElementoMultimediale.esegui(elemento);
         }
+
+
     }
 
     public static void main(String[] args) {
 
-        ElementoMultimediale[] player = new ElementoMultimediale[2];
+        ElementoMultimediale[] player = new ElementoMultimediale[5];
 
         Player.aggiungiElementi(player);
 
